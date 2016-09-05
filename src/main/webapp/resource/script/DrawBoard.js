@@ -4,17 +4,27 @@
 // siblings
 var DrawBoard = {
 
-    tableId:'',
+    tableId:'',          // table的id属性值
     table:'',
     colSum:12,
     rowSum:8,
-    contentTemp:'',
-    caseKey:'dnacode',
-    tdName:'td_simple',
-    currnetTd:'',
-    tds: undefined,
+    contentTemp:'',      // 提示框的id
+    caseKey:'dnacode',   // td上存放dna编码的属性，提示框有应该有一个id为这个值的div
+    tdName:'td_simple',  // 每个td的name
+    currnetTd:'',        // 当前'start'位置
+    tds: undefined,      // 所有的td的对象数组
     letters : ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","X","Y","Z"],
+    URL : {
+        clearOneHole : function(dnacode,board){
 
+        },
+        clearAllHole : function(board){
+
+        },
+        addHole : function(dnacode,hole,board){
+
+        }
+    },
     config:function(object){
         DrawBoard.tableId = object.tableId;
         DrawBoard.colSum = object.colSum;
