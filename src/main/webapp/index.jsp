@@ -13,16 +13,22 @@
 		<link rel="shortcut icon" href="<%=context%>/resource/images/favicon.ico" type="image/x-icon" />
 
 		<link rel="stylesheet" type="text/css" href="<%=context%>/resource/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="<%=context%>/resource/css/bootstrap-dialog.min.css" />
 
-        <script type="text/javascript" src="<%=context%>/resource/js/jquery-3.1.0.min.js"></script>
+
+        <script type="text/javascript" src="<%=context%>/resource/js/jquery-1.11.1.min.js"></script>
+        <%--<script type="text/javascript" src="<%=context%>/resource/js/jquery-3.1.0.min.js"></script>--%>
+
         <script type="text/javascript" src="<%=context%>/resource/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<%=context%>/resource/js/bootstrap-dialog.min.js"></script>
+
+        <script type="text/javascript" src="<%=context%>/resource/script/DrawBoard.js"></script>
 
         <%--<link rel="stylesheet" type="text/css" href="<%=context%>/resource/css/bootstrap-table.min.css" />--%>
         <%--<script type="text/javascript" src="<%=context%>/resource/js/bootstrap-table.min.js"></script>--%>
 		<%--<script type="text/javascript" src="<%=context%>/resource/js/bootstrap-table-locale-all.min.js"></script>--%>
 
-<%--
-
+        <%--
         <!-- 新 Bootstrap 核心 CSS 文件 -->
         <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
         <!-- 可选的Bootstrap主题文件（一般不用引入） -->
@@ -38,8 +44,25 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
         <!-- Latest compiled and minified Locales -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/locale/bootstrap-table-zh-CN.min.js"></script>
+        --%>
 
---%>
+        <style>
+
+            .table-panel{
+                width: 75%;
+            }
+            table {
+
+            }
+            table th {
+                text-align: center;
+            }
+            table td{
+
+            }
+
+
+        </style>
 
 		<script type="application/javascript">
 
@@ -72,86 +95,33 @@
                     ]
                 });*/
 
-                initTable();
+                //$("table").addClass("table table-bordered table-condensed text-center");
+                //initTable();
+
+                DrawBoard.config({
+                    rowSum : 12,
+                    colSum : 24,
+                    tableId : 'table',
+                    contentTemp : 'popoverContent',
+
+                });
+                DrawBoard.init();
+
 
             });
 
-
-
-            function initTable() {
-                var colNum = 24;
-                var rowNum = 12;
-                var table=$('#table');
-                table.append("<tbody></tbody>");
-
-                var tr = $('<tr></tr>');
-                tr.append($('<th></th>'));
-
-                for(var i = 0; i<colNum; i++){
-                    tr.append($("<th>"+(i+1)+"</th>"));
-                }
-
-                table.append(tr);
-
-                for(var j = 0; j<rowNum; j++){
-                    var newTr = $('<tr></tr>');
-                    newTr.append($("<th>"+(j+1)+"</th>"));
-                    for(var i = 0; i<colNum; i++){
-                        newTr.append($("<td>1</td>"));
-                    }
-                    table.append(newTr);
-                }
-
-                //table.addClass("table table-bordered table-condensed");
-
-            }
-
-            /**
-             * 创建表头，名称默认 1 到 n
-             * <tr > <th></th>,<th></th> .... </tr>
-             * @param colNum 列总数
-             */
-            function createHead(tableId,colNum) {
-
-            }
-
-            /**
-             * 创建一行，包括 th + 其他 td
-             * 每一行的名称从 A ... Z
-             * <tr > <th></th>,<td></td> ....(td) </tr>
-             * @param thName
-             * @param colNum
-             */
-            function  createRow(tableId,thName,colNum) {
-
-            }
-
-
-
-
         </script>
 
-        <style>
 
-            table {
-
-            }
-
-            table th {
-              text-align: center;
-            }
-
-
-        </style>
 
     </head>
 
     <body>
 
-        <h1 align="center">Welcome to 拼版!</h1>
+        <h1 id="view" align="center">Welcome to 拼版!</h1>
 
-
-            <div class="panel panel-primary">
+        <div align="center">
+            <div class="panel panel-primary table-panel"  >
                 <div class="panel-heading">
                     <h3 class="panel-title">384拼版</h3>
                 </div>
@@ -159,14 +129,19 @@
                 <div class="panel-body">
                     <div class="table-responsive" id="tableDiv">
 
-                        <table id="table" class="table .table-bordered .table-condensed .text-center">
+                        <table id="table" class="table table-bordered table-condensed text-center">
 
                         </table>
+
+                        <div id="popoverContent" class="hidden">
+                            <label>dnacode:</label>
+                            <div id="dnacode"></div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-
-
+        </div>
 
     </body>
 </html>
