@@ -10,19 +10,20 @@ var DrawBoard = {
     rowSum:8,
     contentTemp:'',      // 提示框的id
     caseKey:'dnacode',   // td上存放dna编码的属性，提示框有应该有一个id为这个值的div
+    simpleId:'simpleId', // 拼版样品的ID，方便CURD操作
     tdName:'td_simple',  // 每个td的name
     currnetTd:'',        // 当前'start'位置
     tds: undefined,      // 所有的td的对象数组
     letters : ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","X","Y","Z"],
     URL : {
-        clearOneHole : function(dnacode,board){
-
+        clearOneHoleURL : function(dnacode,board){
+            return '';
         },
-        clearAllHole : function(board){
-
+        clearAllHoleURL : function(board){
+            return '';
         },
-        addHole : function(dnacode,hole,board){
-
+        addHoleURL : function(dnacode,hole,board){
+            return '';
         }
     },
     config:function(object){
@@ -41,7 +42,7 @@ var DrawBoard = {
         this.table =  $('#'+tableID);
     },
     init : function(){
-        if(!this.tableId == ''){
+        if(!DrawBoard.tableId == ''){
 
             this.setTableObj(DrawBoard.tableId);
             var table = DrawBoard.table;
@@ -61,7 +62,7 @@ var DrawBoard = {
                 newTr.append($("<th>"+DrawBoard.letters[j]+"</th>"));
                 for(var i = 0; i<DrawBoard.colSum; i++){
                     var num = i+1<10 ? "0"+(i+1) : i+1;
-                    newTr.append($("<td id='"+(DrawBoard.letters[j]+num)+"' name='"+DrawBoard.tdName+"' dnacode='NONE'>"+i+"</td>"));
+                    newTr.append($("<td id='"+(DrawBoard.letters[j]+num)+"' name='"+DrawBoard.tdName+"' dnacode='NONE' simpleId ='NONE' ></td>"));
                 }
                 table.append(newTr);
             }
@@ -105,7 +106,7 @@ var DrawBoard = {
             container : 'body'
 
         }).on("show.bs.popover", function () {
-            //$(this).data("bs.popover").tip().css("width", "200px");
+            $(this).data("bs.popover").tip().css("width", "160px");
             //$(this).data("bs.popover").tip().css("hight", "300px");
             var dnacode = $(this).attr(DrawBoard.caseKey);
             $('#'+DrawBoard.caseKey).text(dnacode);
@@ -113,13 +114,17 @@ var DrawBoard = {
         });
     },
     onHoleClick : function(td){
+        //由于td中不存放文本内容，是否有样品，应从额外添加的属性dnacode(主要)和simpleId来判断
         var code = td.attr('dnacode');
-        if(code == 'NONE'){
-            if(DrawBoard.currnetTd != ''){
-                DrawBoard.currnetTd.text('');
+        if(code == 'NONE' || code == undefined){
+            if(DrawBoard.currnetTd != '' && DrawBoard.currnetTd != undefined){
+                //DrawBoard.currnetTd.css('background','none');
+                DrawBoard.clearOneHole(DrawBoard.currnetTd);
             }
-            td.text('start');
+            //td.css('background','#5cb85c');
+            DrawBoard.setStartHole(td);
             DrawBoard.currnetTd = td;
+
         }else{
             BootstrapDialog.show({
                 title: '提示：',
@@ -130,14 +135,50 @@ var DrawBoard = {
     },
     onHoleDBClick : function(td){
          var code = td.attr(DrawBoard.caseKey);
-         if(code == 'NONE'){
+         var simpleId = td.attr(DrawBoard.simpleId);
+         if(code == 'NONE' || code == undefined){
             BootstrapDialog.show({
                 title: '提示：',
                 message: '没有样品，无需清孔！'
             });
         }else{
 
+            var obj = new Object();
+            obj.id = simpleId;
+            obj.dnacode = code;
+
+            $.ajax({
+                type : 'json',
+                url : 'action.php',
+                data: obj,
+                success: function(data){
+                    if(data.success){
+                        DrawBoard.clearOneHole(td);
+                        BootstrapDialog.show({
+                            title: '提示：',
+                            message: '样品，清孔成功！'
+                        });
+                    }else{
+                        BootstrapDialog.show({
+                            title: '提示：',
+                            message: data.message
+                        });
+                    }
+
+
+                },
+                error:function(er){
+
+                }
+            });
+
         }
+    },
+    clearOneHole : function(td){
+        td.css('background','none');
+    },
+    setStartHole : function(td){
+        td.css('background','#5cb85c');
     }
 
 };
