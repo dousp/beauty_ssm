@@ -23,6 +23,7 @@
         <script type="text/javascript" src="<%=context%>/resource/js/bootstrap-dialog.min.js"></script>
 
         <script type="text/javascript" src="<%=context%>/resource/script/DrawBoard.js"></script>
+        <script type="text/javascript" src="<%=context%>/resource/script/Board.js"></script>
 
         <%--<link rel="stylesheet" type="text/css" href="<%=context%>/resource/css/bootstrap-table.min.css" />--%>
         <%--<script type="text/javascript" src="<%=context%>/resource/js/bootstrap-table.min.js"></script>--%>
@@ -49,7 +50,7 @@
         <style>
 
             .table-panel{
-                width: 75%;
+                width: 90%;
             }
             table {
 
@@ -98,14 +99,33 @@
                 //$("table").addClass("table table-bordered table-condensed text-center");
                 //initTable();
 
-                DrawBoard.config({
+
+//                DrawBoard.config({
+//                    rowSum : 12,
+//                    colSum : 24,
+//                    tableId : 'table',
+//                    contentTemp : 'popoverContent',
+//
+//                });
+//                DrawBoard.init();
+
+                var table = new Board({
                     rowSum : 12,
                     colSum : 24,
                     tableId : 'table',
-                    contentTemp : 'popoverContent',
+                    contentTemp : 'popoverContent'
 
                 });
-                DrawBoard.init();
+                initBoard(table);
+
+                var table2 = new Board({
+                    rowSum : 12,
+                    colSum : 24,
+                    tableId : 'table2',
+                    contentTemp : 'popoverContent2'
+
+                });
+                initBoard(table2);
 
 
             });
@@ -120,7 +140,53 @@
 
         <h1 id="view" align="center">Welcome to 拼版!</h1>
 
-        <div align="center">
+        <div align="center" style="float:left;width: 24%">
+            <div class="panel panel-primary table-panel"  >
+                <div class="panel-heading">
+                    <h3 class="panel-title">384拼版</h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="table-responsive" id="tableDiv1">
+
+                        <table id="table1" class="table table-bordered table-condensed text-center">
+
+                        </table>
+
+                        <div id="popoverContent1" class="hidden">
+                            <label>dnacode:</label>
+                            <div id="dnacode1"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div align="center" style="float:left;width: 36%">
+            <div class="panel panel-primary table-panel"  >
+                <div class="panel-heading">
+                    <h3 class="panel-title">384拼版</h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="table-responsive" id="tableDiv2">
+
+                        <table id="table2" class="table table-bordered table-condensed text-center">
+
+                        </table>
+
+                        <div id="popoverContent2" class="hidden">
+                            <label>dnacode:</label>
+                            <div id="dnacode2"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div align="center" style="float:left;width: 36%">
             <div class="panel panel-primary table-panel"  >
                 <div class="panel-heading">
                     <h3 class="panel-title">384拼版</h3>

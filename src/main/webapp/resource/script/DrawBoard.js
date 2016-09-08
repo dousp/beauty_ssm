@@ -2,7 +2,7 @@
  * Created by dou on 16/9/3.
  */
 // siblings
-var DrawBoard = {
+ DrawBoard = {
 
     tableId:'',          // table的id属性值
     table:'',
@@ -164,8 +164,6 @@ var DrawBoard = {
                             message: data.message
                         });
                     }
-
-
                 },
                 error:function(er){
 
