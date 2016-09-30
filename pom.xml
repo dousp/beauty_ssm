@@ -12,6 +12,30 @@
 		<spring.version>4.2.0.RELEASE</spring.version>
 	</properties>
 
+
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>Team Nexus Repository</name>
+            <!--<url>http://192.168.8.232:8081/nexus/content/groups/public</url>-->
+            <!--<url>http://192.168.8.232:8081/repository/maven-public/</url>-->
+            <url>http://192.168.8.232:8081/repository/nexus/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <name>Team Nexus Repository</name>
+            <!--<url>http://192.168.8.232:8081/nexus/content/groups/public</url>-->
+            <!--<url>http://192.168.8.232:8081/repository/maven-public/</url>-->
+            <url>http://192.168.8.232:8081/repository/nexus/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
 	<dependencies>
 		<!--common start -->
 		<dependency>
