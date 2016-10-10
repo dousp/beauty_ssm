@@ -12,13 +12,13 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="shortcut icon" href="<%=context%>/resource/images/favicon.ico" type="image/x-icon" />
 
-		<link rel="stylesheet" type="text/css" href="<%=context%>/resource/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="<%=context%>/resource/css/bootstrap-dialog.min.css" />
+		<link rel="stylesheet" type="text/css" href="<%=context%>/resource/bootstrap/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="<%=context%>/resource/bootstrao-dialog/bootstrap-dialog.min.css" />
         <link rel="stylesheet" type="text/css" href="<%=context%>/resource/css/PinBan.css" />
 
         <script type="text/javascript" src="<%=context%>/resource/js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="<%=context%>/resource/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="<%=context%>/resource/js/bootstrap-dialog.js"></script>
+        <script type="text/javascript" src="<%=context%>/resource/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<%=context%>/resource/bootstrao-dialog/bootstrap-dialog.js"></script>
         <script type="text/javascript" src="<%=context%>/resource/script/PinBan.js"></script>
 
 
