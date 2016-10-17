@@ -1,0 +1,23 @@
+Ext.define('${className}', {
+    extend : "Ext.data.Model",
+    fields : [
+              <%for(column in columns) {%>
+              {name: "${column.name}",type:"${column.type}"}<%if(columnLP.index != columnLP.size) {%>,
+              <%}}%>
+        ],
+    idProperty:"id"
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
