@@ -1,5 +1,6 @@
 package com.yingjun.ssm.web;
 
+import com.yingjun.ssm.util.SpringContextUtil;
 import org.apache.commons.io.output.FileWriterWithEncoding;
 import org.beetl.core.GroupTemplate;
 import org.beetl.core.Template;
@@ -11,8 +12,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.context.support.WebApplicationContextUtils;
-import org.springframework.web.servlet.DispatcherServlet;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -23,7 +22,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.jar.Attributes;
 
 /**
  * Created by dou on 2016/10/16.
@@ -34,14 +32,11 @@ public class BeetlController {
 
     private final Logger LOG = LoggerFactory.getLogger(this.getClass());
 
-    @Resource(name = "beetlGroupUtilConfiguration")
+    @Autowired
     BeetlGroupUtilConfiguration config;
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public String list(Model model, HttpServletRequest request) throws IOException {
-
-        //BeetlGroupUtilConfiguration config = (BeetlGroupUtilConfiguration) this.getApplicationContext().getBean("beetlConfig");
-        GroupTemplate group = config.getGroupTemplate();
 
         GroupTemplate groupTemplate = config.getGroupTemplate();
         groupTemplate.getTemplate("model.btl");
@@ -64,9 +59,11 @@ public class BeetlController {
 
         entity.binding("columns", columns);
 
-        String basePath = this.getClass().getClassLoader().getResource("/").getPath();
-        basePath = basePath.substring(0,basePath.indexOf("target"));
-        basePath = basePath + "src/main/webapp/files";
+        String projectPath = this.getClass().getClassLoader().getResource("/").getPath();
+        String targetPath = "src/main/webapp/files";
+        projectPath = projectPath.substring(0,projectPath.indexOf("target"));
+        String basePath = projectPath + targetPath;
+
         File entityFile = new File(basePath+"/usertestModel.js");
         entityFile.createNewFile();
         Writer entityWriter = new FileWriterWithEncoding(entityFile,"utf-8");
