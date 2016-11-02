@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--<bean id="webServiceTemplate" class="org.springframework.ws.client.core.WebServiceTemplate">
+        <property name="messageSender">
+            <bean class="org.springframework.ws.transport.http.CommonsHttpMessageSender">
+                <property name="readTimeout" value="0"/>
+            </bean>
+        </property>
+        <property name="defaultUri" value="http://localhost:8080/prjCXFWS/services/SimpleServicePort"/>
+    </bean>-->
+
+
+    <bean id="messageFactory" class="org.springframework.ws.soap.saaj.SaajSoapMessageFactory"/>
+
+    <!--https://ccgp-test.crm.ap1.oraclecloud.com/opptyMgmtExtensibility/SalesCustomObjectService?WSDL-->
+
+    <!--<bean id="webServiceTemplate" class="org.springframework.ws.client.core.WebServiceTemplate">-->
+        <!--<constructor-arg ref="messageFactory"/>-->
+        <!--<property name="defaultUri" value="https://ccgp-test.crm.ap1.oraclecloud.com/opptyMgmtExtensibility/SalesCustomObjectService?WSDL"/>-->
+    <!--</bean>-->
+
+
+    <bean id="webServiceTemplate" class="org.springframework.ws.client.core.WebServiceTemplate">
+        <constructor-arg ref="messageFactory"/>
+        <property name="messageSender">
+            <bean class="org.springframework.ws.transport.http.HttpComponentsMessageSender">
+                <property name="credentials">
+                    <bean class="org.apache.http.auth.UsernamePasswordCredentials">
+                        <constructor-arg value="INTUSR:Welcome1"/>
+                    </bean>
+                </property>
+            </bean>
+        </property>
+        <property name="defaultUri" value="https://ccgp-test.crm.ap1.oraclecloud.com/opptyMgmtExtensibility/SalesCustomObjectService"/>
+    </bean>
+
+
+
+</beans>
