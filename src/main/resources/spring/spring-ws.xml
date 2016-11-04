@@ -38,9 +38,15 @@
                 </property>
             </bean>
         </property>
-        <property name="defaultUri" value="https://ccgp-test.crm.ap1.oraclecloud.com/opptyMgmtExtensibility/SalesCustomObjectService"/>
+        <!--<property name="defaultUri" value="https://ccgp-test.crm.ap1.oraclecloud.com/opptyMgmtExtensibility/SalesCustomObjectService"/>-->
+        <!--<property name="defaultUri" value="https://ccgp-test.crm.ap1.oraclecloud.com:443/opptyMgmtExtensibility/SalesCustomObjectService"/>-->
+        <property name="defaultUri" value="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService"/>
+
+        <!--<property name="marshaller" ref="jaxbMarshaller"/>-->
+        <!--<property name="unmarshaller" ref="jaxbMarshaller"/>-->
+
     </bean>
 
-
+    <bean id="jaxbMarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller" />
 
 </beans>
