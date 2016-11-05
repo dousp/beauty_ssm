@@ -24,14 +24,16 @@ import javax.xml.transform.stream.StreamSource;
 
 public class ClientTest {
 
-        private static final String MESSAGE =
+    private static final String SalesCustomObjectService_findEntity =
 
-                "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" "
-                +" xmlns:typ=\"http://xmlns.oracle.com/apps/sales/custExtn/extnService/types/\" "
-                +" xmlns:typ1=\"http://xmlns.oracle.com/adf/svc/types/\"> "
-                +" <soapenv:Header />"
-                +" <soapenv:Body>"
-                +"  <typ:findEntity>"
+                // "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" "
+                // +" xmlns:typ=\"http://xmlns.oracle.com/apps/sales/custExtn/extnService/types/\" "
+                // +" xmlns:typ1=\"http://xmlns.oracle.com/adf/svc/types/\"> "
+                // +" <soapenv:Header />"
+                // +" <soapenv:Body>"
+                 "  <typ:findEntity xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" " +
+                                   "xmlns:typ=\"http://xmlns.oracle.com/apps/sales/custExtn/extnService/types/\" " +
+                                   "xmlns:typ1=\"http://xmlns.oracle.com/adf/svc/types/\">"
                 +"     <typ:findCriteria>"
                 +"        <typ1:fetchStart>0</typ1:fetchStart>"
                 +"        <typ1:fetchSize>-1</typ1:fetchSize>"
@@ -76,18 +78,79 @@ public class ClientTest {
                 +"     </typ:findControl>"
                 +"     <typ:objectName>BRSampleNIPT_c</typ:objectName>"
                 +"  </typ:findEntity>"
-                +"</soapenv:Body>"
-                +"</soapenv:Envelope>";
+                // +"</soapenv:Body>"
+                // +"</soapenv:Envelope>"
+                ;
+
+    private static final String OpportunityService_findOpportunity =
+				"      <typ:findOpportunity xmlns:typ=\"http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/\"  xmlns:typ1=\"http://xmlns.oracle.com/adf/svc/types/\">                                                                                                                                                                                                                               "
+				+"         <typ:findCriteria>                                                                                                                                                                                                                                "
+				+"            <typ1:fetchStart>0</typ1:fetchStart>                                                                                                                                                                                                          "
+				+"            <typ1:fetchSize>-1</typ1:fetchSize>                                                                                                                                                                                                           "
+				+"            <!--Optional:-->                                                                                                                                                                                                                               "
+				+"            <typ1:filter>                                                                                                                                                                                                                                  "
+				+"               <!--Optional:-->                                                                                                                                                                                                                            "
+				+"               <typ1:conjunction>And</typ1:conjunction>                                                                                                                                                                                                   "
+				+"               <!--1 or more repetitions:-->                                                                                                                                                                                                               "
+				+"               <typ1:group>                                                                                                                                                                                                                                "
+				+"                  <!--Optional:-->                                                                                                                                                                                                                         "
+				+"                  <typ1:conjunction>And</typ1:conjunction>                                                                                                                                                                                                "
+				+"                  <typ1:upperCaseCompare>false</typ1:upperCaseCompare>                                                                                                                                                                                    "
+				+"                  <!--1 or more repetitions:-->                                                                                                                                                                                                            "
+				+"                  <typ1:item>                                                                                                                                                                                                                              "
+				+"                     <!--Optional:-->                                                                                                                                                                                                                      "
+				+"                     <typ1:conjunction>And</typ1:conjunction>                                                                                                                                                                                             "
+				+"                     <typ1:upperCaseCompare>false</typ1:upperCaseCompare>                                                                                                                                                                                 "
+				+"                     <typ1:attribute>LastUpdateDate</typ1:attribute>                                                                                                                                                                                      "
+				+"                     <typ1:operator>AFTER</typ1:operator>                                                                                                                                                                                                 "
+				+"                     <!--You have a CHOICE of the next 2 items at this level-->                                                                                                                                                                            "
+				+"                     <!--Zero or more repetitions:-->                                                                                                                                                                                                      "
+				+"                     <typ1:value>2016-10-30T04:14:38.948Z</typ1:value>                                                                                                                                                                                    "
+				+"                                                                                                                                                                                                                                                           "
+				+"                  </typ1:item>                                                                                                                                                                                                                            "
+				+"               </typ1:group>                                                                                                                                                                                                                              "
+				+"               <!--Zero or more repetitions:-->                                                                                                                                                                                                            "
+				+"                                                                                                                                                                                                                                                           "
+				+"            </typ1:filter>                                                                                                                                                                                                                                "
+				+"            <!--Optional:-->                                                                                                                                                                                                                               "
+				+"                                                                                                                                                                                                                                                           "
+				+"            <!--Zero or more repetitions:-->                                                                                                                                                                                                               "
+				+"                                                                                                                                                                                                                                                           "
+				+"            <typ1:excludeAttribute>false</typ1:excludeAttribute>                                                                                                                                                                                          "
+				+"         </typ:findCriteria>                                                                                                                                                                                                                              "
+				+"         <typ:findControl>                                                                                                                                                                                                                                 "
+				+"            <typ1:retrieveAllTranslations>false</typ1:retrieveAllTranslations>                                                                                                                                                                            "
+				+"         </typ:findControl>                                                                                                                                                                                                                               "
+				+"      </typ:findOpportunity>                                                                                                                                                                                                                              "
+				;
+
+    private static final String SalesCustomObjectService_WSDL = "https://ccgp-test.crm.ap1.oraclecloud.com/opptyMgmtExtensibility/SalesCustomObjectService?WSDL";
+    private static final String OpportunityService_WSDL= "https://ccgp-test.crm.ap1.oraclecloud.com/opptyMgmtOpportunities/OpportunityService?WSDL";
+
 
     public static void main(String[] args) throws Exception {
 
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:/spring/spring-ws.xml");
         WebServiceTemplate webServiceTemplate = (WebServiceTemplate) ac.getBean("webServiceTemplate");
-        System.out.println("URI:"+webServiceTemplate.getDefaultUri());
 
-        StreamSource source = new StreamSource(new StringReader(getBody()));
-        StreamResult result = new StreamResult(System.out);
-        webServiceTemplate.sendSourceAndReceiveToResult(source, result);
+        try {
+
+            StreamSource source = new StreamSource(new StringReader(OpportunityService_findOpportunity));
+            StreamResult result = new StreamResult(System.out);
+            webServiceTemplate.sendSourceAndReceiveToResult(OpportunityService_WSDL,source, result);
+            System.out.println(result);
+
+            StreamSource source2 = new StreamSource(new StringReader(SalesCustomObjectService_findEntity));
+            StreamResult result2 = new StreamResult(System.out);
+            webServiceTemplate.sendSourceAndReceiveToResult(SalesCustomObjectService_WSDL,source2, result2);
+            System.out.println(result2);
+
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+
+
+
 
         //httpClient();
     }

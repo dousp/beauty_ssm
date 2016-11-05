@@ -47,6 +47,6 @@
 
     </bean>
 
-    <bean id="jaxbMarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller" />
+    <!--<bean id="jaxbMarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller" />-->
 
 </beans>
