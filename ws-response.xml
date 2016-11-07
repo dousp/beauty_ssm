@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:findOpportunityResponse xmlns:ns0="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/">
+
+    <ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>ChenXing</ns2:CreatedBy>
+        <ns2:CreationDate>2016-10-11T02:41:25.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000000132175</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000000132181</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-10-31T03:35:52.0Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>ChenXing</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>CX-Opp-Test-1011-001</ns2:Name>
+        <ns2:ObjectVersionNumber>4</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001136887</ns2:OptyId>
+        <ns2:OptyNumber>1002</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001141265</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId xsi:nil="true"/>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001136888</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId>300000001111079</ns2:TargetPartyId>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName>医院1</ns2:TargetPartyName>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Standard Sales Process</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>1</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01 - Qualification</ns2:SalesStage>
+        <ns2:DescriptionText>Looking for the Right Contacts, Characteristics, Determining the Need, Budget and Sponsor</ns2:DescriptionText>
+        <ns2:AverageDaysAtStage>30</ns2:AverageDaysAtStage>
+        <ns2:MaximumDaysInStage>800</ns2:MaximumDaysInStage>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>3</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-10-31</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001136888</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>2</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName/>
+        <ns2:PrimaryContactPartyId/>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId>300000001111085</ns2:LocationId>
+        <ns2:FormattedAddress>CHINA,浙江省,宁波市,红星路</ns2:FormattedAddress>
+        <ns2:City>宁波市</ns2:City>
+        <ns2:Country>CN</ns2:Country>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>ChenXing</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>kitt.chen@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-10-11T02:41:25.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName>医院1</ns2:PartyUniqueName>
+        <ns2:PrConRelationshipId xsi:nil="true"/>
+        <ns2:OptyCreatedBy>ChenXing</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType>ORGANIZATION</ns2:PartyType>
+        <ns2:OptyLastUpdateDate>2016-10-31T03:35:52.0Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>ChenXing</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId>300000001111083</ns2:SalesAccountId>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName xsi:nil="true"/>
+        <ns2:PrimaryContactLastName xsi:nil="true"/>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001136889</ns2:OptyResourceId>
+            <ns2:OptyId>300000001136887</ns2:OptyId>
+            <ns2:ResourceId>300000001141265</ns2:ResourceId>
+            <ns2:PartyName>ChenXing</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>ChenXing</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-11T02:42:27.59Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>ChenXing</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-10-11T02:42:28.662Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C0ADF2C0126D3E053847F770A7859</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName xsi:nil="true"/>
+            <ns2:PersonLastName>ChenXing</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>kitt.chen@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>1002</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId>300000001111079</ns1:TargetPartyId>
+            <ns1:RevnId>300000001136888</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001141265</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-10-31</ns1:EffectiveDate>
+            <ns1:OptyId>300000001136887</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-11T02:41:25.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>ChenXing</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>ChenXing</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C0C10AC94BD90E053867F770A1617</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T03:35:52.0Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>1002</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>ChenXing</ns1:PartyName>
+            <ns1:PartyId>300000001141265</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId>300000001111083</ns1:SalesAccountId>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001136888</ns1:RevnId>
+            <ns1:TargetPartyId>300000001111079</ns1:TargetPartyId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001141265</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-10-31</ns1:EffectiveDate>
+            <ns1:OptyId>300000001136887</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-11T02:41:25.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>ChenXing</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>ChenXing</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C0C10AC94BD90E053867F770A1617</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T03:35:52.0Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>1002</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId>300000001111083</ns1:SalesAccountId>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c>B2C</ns2:BRBusMode_c>
+        <ns2:BRAgent_Id_c>300000001153364</ns2:BRAgent_Id_c>
+        <ns2:BRAgent_c>代理商1019.1</ns2:BRAgent_c>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c>CX客户的负责人</ns2:BRAccountOwner_c>
+        <ns2:BRResearchProgramCode_Id_c>300000001136891</ns2:BRResearchProgramCode_Id_c>
+        <ns2:BRResearchProgramCode_c>P000001</ns2:BRResearchProgramCode_c>
+        <ns2:BRResearchProgramName_c>CX测试项目001</ns2:BRResearchProgramName_c>
+        <ns2:BRResearchProgramPM_c>CX项目负责人</ns2:BRResearchProgramPM_c>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c>DEAF</ns2:BRProductLine_c>
+        <ns2:BRDepartmentName_Id_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_c xsi:nil="true"/>
+    </ns3:result>
+    <ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>chenhong</ns2:CreatedBy>
+        <ns2:CreationDate>2016-10-31T04:14:21.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000001151449</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000001151450</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-10-31T04:14:38.948Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>chenhong</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>接口测试</ns2:Name>
+        <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001167656</ns2:OptyId>
+        <ns2:OptyNumber>3006</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001104116</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId xsi:nil="true"/>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001167657</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId xsi:nil="true"/>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName/>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Berry Sales Method</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>6</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01-潜在商机</ns2:SalesStage>
+        <ns2:DescriptionText xsi:nil="true"/>
+        <ns2:AverageDaysAtStage xsi:nil="true"/>
+        <ns2:MaximumDaysInStage xsi:nil="true"/>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>1</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-11-20</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001167657</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>1</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName/>
+        <ns2:PrimaryContactPartyId/>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId/>
+        <ns2:FormattedAddress xsi:nil="true"/>
+        <ns2:City xsi:nil="true"/>
+        <ns2:Country/>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>Chen Hong</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+        </ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>hong.h.chen@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-10-31T04:14:21.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName xsi:nil="true"/>
+        <ns2:PrConRelationshipId xsi:nil="true"/>
+        <ns2:OptyCreatedBy>chenhong</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType/>
+        <ns2:OptyLastUpdateDate>2016-10-31T04:14:21.012Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>chenhong</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId xsi:nil="true"/>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName xsi:nil="true"/>
+        <ns2:PrimaryContactLastName xsi:nil="true"/>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001167658</ns2:OptyResourceId>
+            <ns2:OptyId>300000001167656</ns2:OptyId>
+            <ns2:ResourceId>300000001104116</ns2:ResourceId>
+            <ns2:PartyName>Chen Hong</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>chenhong</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T04:14:38.414Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>chenhong</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-10-31T04:14:38.998Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C0ADC59CE26B3E053847F770AA562</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName>Chen</ns2:PersonFirstName>
+            <ns2:PersonLastName>Hong</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>hong.h.chen@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>4004</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId xsi:nil="true"/>
+            <ns1:RevnId>300000001167657</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001104116</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167656</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T04:14:21.012Z</ns1:CreationDate>
+            <ns1:CreatedBy>chenhong</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>chenhong</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C0ADC59CE26B3E053847F770AA562</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T04:14:38.948Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2006</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>Chen Hong</ns1:PartyName>
+            <ns1:PartyId>300000001104116</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId xsi:nil="true"/>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001167657</ns1:RevnId>
+            <ns1:TargetPartyId xsi:nil="true"/>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001104116</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167656</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T04:14:21.012Z</ns1:CreationDate>
+            <ns1:CreatedBy>chenhong</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>chenhong</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C0ADC59CE26B3E053847F770AA562</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T04:14:38.948Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2006</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId xsi:nil="true"/>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c>B2B</ns2:BRBusMode_c>
+        <ns2:BRAgent_Id_c xsi:nil="true"/>
+        <ns2:BRAgent_c xsi:nil="true"/>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_Id_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_c xsi:nil="true"/>
+        <ns2:BRResearchProgramName_c xsi:nil="true"/>
+        <ns2:BRResearchProgramPM_c xsi:nil="true"/>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_Id_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_c xsi:nil="true"/>
+    </ns3:result>
+    <!--<ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>xiongw</ns2:CreatedBy>
+        <ns2:CreationDate>2016-10-31T06:55:51.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000001151449</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000001151450</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-10-31T06:59:38.175Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>xiongw</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>xwtest001</ns2:Name>
+        <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001167717</ns2:OptyId>
+        <ns2:OptyNumber>3008</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001107279</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId>300000001167720</ns2:KeyContactId>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001167718</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId>300000001111079</ns2:TargetPartyId>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName>医院1</ns2:TargetPartyName>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Berry Sales Method</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>6</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01-潜在商机</ns2:SalesStage>
+        <ns2:DescriptionText xsi:nil="true"/>
+        <ns2:AverageDaysAtStage xsi:nil="true"/>
+        <ns2:MaximumDaysInStage xsi:nil="true"/>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>1</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-11-20</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001167718</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>2</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName>Wei Xiong</ns2:PrimaryContactPartyName>
+        <ns2:PrimaryContactPartyId>300000001167720</ns2:PrimaryContactPartyId>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId>300000001111085</ns2:LocationId>
+        <ns2:FormattedAddress>CHINA,浙江省,宁波市,红星路</ns2:FormattedAddress>
+        <ns2:City>宁波市</ns2:City>
+        <ns2:Country>CN</ns2:Country>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>Xiong Wei</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+        </ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>wei.we.xiong@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-10-31T06:55:51.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName>医院1</ns2:PartyUniqueName>
+        <ns2:PrConRelationshipId>300000001167722</ns2:PrConRelationshipId>
+        <ns2:OptyCreatedBy>xiongw</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType>ORGANIZATION</ns2:PartyType>
+        <ns2:OptyLastUpdateDate>2016-10-31T06:55:51.002Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>xiongw</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId>300000001111083</ns2:SalesAccountId>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName>Wei</ns2:PrimaryContactFirstName>
+        <ns2:PrimaryContactLastName>Xiong</ns2:PrimaryContactLastName>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityContact>
+            <ns2:AffinityLvlCd xsi:nil="true"/>
+            <ns2:Comments xsi:nil="true"/>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:ContactedFlg>N</ns2:ContactedFlg>
+            <ns2:CreatedBy>xiongw</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T06:59:19.136Z</ns2:CreationDate>
+            <ns2:InfluenceLvlCd xsi:nil="true"/>
+            <ns2:LastUpdateDate>2016-10-31T06:59:38.24Z</ns2:LastUpdateDate>
+            <ns2:LastUpdatedBy>xiongw</ns2:LastUpdatedBy>
+            <ns2:LastUpdateLogin xsi:nil="true"/>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:OptyConId>300000001167759</ns2:OptyConId>
+            <ns2:OptyId>300000001167717</ns2:OptyId>
+            <ns2:PERPartyId>300000001167720</ns2:PERPartyId>
+            <ns2:RelationshipId>300000001167722</ns2:RelationshipId>
+            <ns2:RoleCd xsi:nil="true"/>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PrimaryFlg>Y</ns2:PrimaryFlg>
+            <ns2:RelationshipCode>CONTACT_OF</ns2:RelationshipCode>
+            <ns2:JobTitle xsi:nil="true"/>
+            <ns2:OrgContactId>300000001167723</ns2:OrgContactId>
+            <ns2:OrganizationPartyName>医院1</ns2:OrganizationPartyName>
+            <ns2:OrganizationPartyId>300000001111079</ns2:OrganizationPartyId>
+            <ns2:RelationshipRecId>300000001167721</ns2:RelationshipRecId>
+            <ns2:SalesAffinityCode xsi:nil="true"/>
+            <ns2:SalesBuyingRoleCode xsi:nil="true"/>
+            <ns2:SalesInfluenceLevelCode xsi:nil="true"/>
+            <ns2:PartyUniqueName>医院1</ns2:PartyUniqueName>
+            <ns2:PartyName>Wei Xiong</ns2:PartyName>
+            <ns2:PartyId>300000001167720</ns2:PartyId>
+            <ns2:PreferredContactMethod xsi:nil="true"/>
+            <ns2:EmailAddress xsi:nil="true"/>
+            <ns2:ContactPointId/>
+            <ns2:ContactPointType/>
+            <ns2:RawPhoneNumber xsi:nil="true"/>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:ContactPointId1/>
+            <ns2:ContactPointType1/>
+            <ns2:FormattedAddress xsi:nil="true"/>
+            <ns2:LocationId/>
+            <ns2:FormattedMultilineAddress xsi:nil="true"/>
+            <ns2:TargetPartyId>300000001111079</ns2:TargetPartyId>
+            <ns2:ObjectVersionNumber1>1</ns2:ObjectVersionNumber1>
+            <ns2:SubjectId>300000001167720</ns2:SubjectId>
+            <ns2:ObjectId>300000001111079</ns2:ObjectId>
+            <ns2:PhonePreferenceExistsFlag xsi:nil="true"/>
+            <ns2:EmailPreferenceExistsFlag xsi:nil="true"/>
+            <ns2:PersonCentricJobTitle xsi:nil="true"/>
+            <ns2:DoNotContactFlag>false</ns2:DoNotContactFlag>
+        </ns2:OpportunityContact>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001167761</ns2:OptyResourceId>
+            <ns2:OptyId>300000001167717</ns2:OptyId>
+            <ns2:ResourceId>300000001107279</ns2:ResourceId>
+            <ns2:PartyName>Xiong Wei</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>xiongw</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T06:59:35.768Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>xiongw</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-10-31T06:59:39.2Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C09AD7D0226A4E053847F770AF440</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName>Xiong</ns2:PersonFirstName>
+            <ns2:PersonLastName>Wei</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>wei.we.xiong@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>4006</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId>300000001111079</ns1:TargetPartyId>
+            <ns1:RevnId>300000001167718</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001107279</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167717</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T06:55:51.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>xiongw</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>xiongw</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C09AD7D0226A4E053847F770AF440</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T06:59:39.235Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2008</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>Xiong Wei</ns1:PartyName>
+            <ns1:PartyId>300000001107279</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId>300000001111083</ns1:SalesAccountId>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001167718</ns1:RevnId>
+            <ns1:TargetPartyId>300000001111079</ns1:TargetPartyId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001107279</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167717</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T06:55:51.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>xiongw</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>xiongw</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C09AD7D0226A4E053847F770AF440</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T06:59:39.235Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2008</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId>300000001111083</ns1:SalesAccountId>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c>B2B</ns2:BRBusMode_c>
+        <ns2:BRAgent_Id_c>300000001136645</ns2:BRAgent_Id_c>
+        <ns2:BRAgent_c>代理商1</ns2:BRAgent_c>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_Id_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_c xsi:nil="true"/>
+        <ns2:BRResearchProgramName_c xsi:nil="true"/>
+        <ns2:BRResearchProgramPM_c xsi:nil="true"/>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c>NIPT</ns2:BRProductLine_c>
+        <ns2:BRDepartmentName_Id_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_c xsi:nil="true"/>
+    </ns3:result>
+    <ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>xiongw</ns2:CreatedBy>
+        <ns2:CreationDate>2016-10-31T07:45:47.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000001151449</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000001151450</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-10-31T07:46:22.064Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>xiongw</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>xwtest002</ns2:Name>
+        <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001167811</ns2:OptyId>
+        <ns2:OptyNumber>3009</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001107279</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId>300000001167720</ns2:KeyContactId>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001167812</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId>300000001111079</ns2:TargetPartyId>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName>医院1</ns2:TargetPartyName>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Berry Sales Method</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>6</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01-潜在商机</ns2:SalesStage>
+        <ns2:DescriptionText xsi:nil="true"/>
+        <ns2:AverageDaysAtStage xsi:nil="true"/>
+        <ns2:MaximumDaysInStage xsi:nil="true"/>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>1</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-11-20</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001167812</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>1</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName>Wei Xiong</ns2:PrimaryContactPartyName>
+        <ns2:PrimaryContactPartyId>300000001167720</ns2:PrimaryContactPartyId>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId>300000001111085</ns2:LocationId>
+        <ns2:FormattedAddress>CHINA,浙江省,宁波市,红星路</ns2:FormattedAddress>
+        <ns2:City>宁波市</ns2:City>
+        <ns2:Country>CN</ns2:Country>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>Xiong Wei</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+        </ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>wei.we.xiong@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-10-31T07:45:47.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName>医院1</ns2:PartyUniqueName>
+        <ns2:PrConRelationshipId>300000001167722</ns2:PrConRelationshipId>
+        <ns2:OptyCreatedBy>xiongw</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType>ORGANIZATION</ns2:PartyType>
+        <ns2:OptyLastUpdateDate>2016-10-31T07:45:47.001Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>xiongw</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId>300000001111083</ns2:SalesAccountId>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName>Wei</ns2:PrimaryContactFirstName>
+        <ns2:PrimaryContactLastName>Xiong</ns2:PrimaryContactLastName>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityContact>
+            <ns2:AffinityLvlCd xsi:nil="true"/>
+            <ns2:Comments xsi:nil="true"/>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:ContactedFlg>N</ns2:ContactedFlg>
+            <ns2:CreatedBy>xiongw</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T07:46:21.501Z</ns2:CreationDate>
+            <ns2:InfluenceLvlCd xsi:nil="true"/>
+            <ns2:LastUpdateDate>2016-10-31T07:46:22.144Z</ns2:LastUpdateDate>
+            <ns2:LastUpdatedBy>xiongw</ns2:LastUpdatedBy>
+            <ns2:LastUpdateLogin xsi:nil="true"/>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:OptyConId>300000001167814</ns2:OptyConId>
+            <ns2:OptyId>300000001167811</ns2:OptyId>
+            <ns2:PERPartyId>300000001167720</ns2:PERPartyId>
+            <ns2:RelationshipId>300000001167722</ns2:RelationshipId>
+            <ns2:RoleCd xsi:nil="true"/>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PrimaryFlg>Y</ns2:PrimaryFlg>
+            <ns2:RelationshipCode>CONTACT_OF</ns2:RelationshipCode>
+            <ns2:JobTitle xsi:nil="true"/>
+            <ns2:OrgContactId>300000001167723</ns2:OrgContactId>
+            <ns2:OrganizationPartyName>医院1</ns2:OrganizationPartyName>
+            <ns2:OrganizationPartyId>300000001111079</ns2:OrganizationPartyId>
+            <ns2:RelationshipRecId>300000001167721</ns2:RelationshipRecId>
+            <ns2:SalesAffinityCode xsi:nil="true"/>
+            <ns2:SalesBuyingRoleCode xsi:nil="true"/>
+            <ns2:SalesInfluenceLevelCode xsi:nil="true"/>
+            <ns2:PartyUniqueName>医院1</ns2:PartyUniqueName>
+            <ns2:PartyName>Wei Xiong</ns2:PartyName>
+            <ns2:PartyId>300000001167720</ns2:PartyId>
+            <ns2:PreferredContactMethod xsi:nil="true"/>
+            <ns2:EmailAddress xsi:nil="true"/>
+            <ns2:ContactPointId/>
+            <ns2:ContactPointType/>
+            <ns2:RawPhoneNumber xsi:nil="true"/>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:ContactPointId1/>
+            <ns2:ContactPointType1/>
+            <ns2:FormattedAddress xsi:nil="true"/>
+            <ns2:LocationId/>
+            <ns2:FormattedMultilineAddress xsi:nil="true"/>
+            <ns2:TargetPartyId>300000001111079</ns2:TargetPartyId>
+            <ns2:ObjectVersionNumber1>1</ns2:ObjectVersionNumber1>
+            <ns2:SubjectId>300000001167720</ns2:SubjectId>
+            <ns2:ObjectId>300000001111079</ns2:ObjectId>
+            <ns2:PhonePreferenceExistsFlag xsi:nil="true"/>
+            <ns2:EmailPreferenceExistsFlag xsi:nil="true"/>
+            <ns2:PersonCentricJobTitle xsi:nil="true"/>
+            <ns2:DoNotContactFlag>false</ns2:DoNotContactFlag>
+        </ns2:OpportunityContact>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001167813</ns2:OptyResourceId>
+            <ns2:OptyId>300000001167811</ns2:OptyId>
+            <ns2:ResourceId>300000001107279</ns2:ResourceId>
+            <ns2:PartyName>Xiong Wei</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>xiongw</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T07:46:21.374Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>xiongw</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-10-31T07:46:22.118Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C09AD7D0226A4E053847F770AF440</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName>Xiong</ns2:PersonFirstName>
+            <ns2:PersonLastName>Wei</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>wei.we.xiong@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>4007</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId>300000001111079</ns1:TargetPartyId>
+            <ns1:RevnId>300000001167812</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001107279</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167811</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T07:45:47.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>xiongw</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>xiongw</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C09AD7D0226A4E053847F770AF440</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T07:46:22.064Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2009</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>Xiong Wei</ns1:PartyName>
+            <ns1:PartyId>300000001107279</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId>300000001111083</ns1:SalesAccountId>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001167812</ns1:RevnId>
+            <ns1:TargetPartyId>300000001111079</ns1:TargetPartyId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001107279</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167811</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T07:45:47.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>xiongw</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>xiongw</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C09AD7D0226A4E053847F770AF440</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T07:46:22.064Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2009</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId>300000001111083</ns1:SalesAccountId>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c>B2C</ns2:BRBusMode_c>
+        <ns2:BRAgent_Id_c>300000001136645</ns2:BRAgent_Id_c>
+        <ns2:BRAgent_c>代理商1</ns2:BRAgent_c>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_Id_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_c xsi:nil="true"/>
+        <ns2:BRResearchProgramName_c xsi:nil="true"/>
+        <ns2:BRResearchProgramPM_c xsi:nil="true"/>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c>NIPTP</ns2:BRProductLine_c>
+        <ns2:BRDepartmentName_Id_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_c xsi:nil="true"/>
+    </ns3:result>
+    <ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>ChenXing</ns2:CreatedBy>
+        <ns2:CreationDate>2016-10-31T09:31:19.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000001151449</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000001151450</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-10-31T09:33:36.85Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>ChenXing</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>CX-Opp_Test-1031-001</ns2:Name>
+        <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001167854</ns2:OptyId>
+        <ns2:OptyNumber>3010</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001141265</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId xsi:nil="true"/>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001167855</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId>300000001153303</ns2:TargetPartyId>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName>CXTestAccount001</ns2:TargetPartyName>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Berry Sales Method</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>6</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01-潜在商机</ns2:SalesStage>
+        <ns2:DescriptionText xsi:nil="true"/>
+        <ns2:AverageDaysAtStage xsi:nil="true"/>
+        <ns2:MaximumDaysInStage xsi:nil="true"/>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>1</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-11-20</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001167855</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>1</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName/>
+        <ns2:PrimaryContactPartyId/>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId/>
+        <ns2:FormattedAddress xsi:nil="true"/>
+        <ns2:City xsi:nil="true"/>
+        <ns2:Country/>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>ChenXing</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+        </ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>kitt.chen@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-10-31T09:31:19.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName>CXTestAccount001</ns2:PartyUniqueName>
+        <ns2:PrConRelationshipId xsi:nil="true"/>
+        <ns2:OptyCreatedBy>ChenXing</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType>ORGANIZATION</ns2:PartyType>
+        <ns2:OptyLastUpdateDate>2016-10-31T09:31:19.008Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>ChenXing</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId>300000001153307</ns2:SalesAccountId>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName xsi:nil="true"/>
+        <ns2:PrimaryContactLastName xsi:nil="true"/>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001167859</ns2:OptyResourceId>
+            <ns2:OptyId>300000001167854</ns2:OptyId>
+            <ns2:ResourceId>300000001141265</ns2:ResourceId>
+            <ns2:PartyName>ChenXing</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>ChenXing</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T09:33:36.346Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>ChenXing</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-10-31T09:33:36.902Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C18470DD426D5E053847F770A20F4</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName xsi:nil="true"/>
+            <ns2:PersonLastName>ChenXing</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>kitt.chen@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>4008</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId>300000001153303</ns1:TargetPartyId>
+            <ns1:RevnId>300000001167855</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001141265</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167854</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T09:31:19.009Z</ns1:CreationDate>
+            <ns1:CreatedBy>ChenXing</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>ChenXing</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C18470DD426D5E053847F770A20F4</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T09:33:36.85Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2010</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>ChenXing</ns1:PartyName>
+            <ns1:PartyId>300000001141265</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId>300000001153307</ns1:SalesAccountId>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001167855</ns1:RevnId>
+            <ns1:TargetPartyId>300000001153303</ns1:TargetPartyId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001141265</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167854</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T09:31:19.009Z</ns1:CreationDate>
+            <ns1:CreatedBy>ChenXing</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>ChenXing</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C18470DD426D5E053847F770A20F4</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T09:33:36.85Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2010</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId>300000001153307</ns1:SalesAccountId>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c>B2B</ns2:BRBusMode_c>
+        <ns2:BRAgent_Id_c>300000001151365</ns2:BRAgent_Id_c>
+        <ns2:BRAgent_c>代理商101703</ns2:BRAgent_c>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_Id_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_c xsi:nil="true"/>
+        <ns2:BRResearchProgramName_c xsi:nil="true"/>
+        <ns2:BRResearchProgramPM_c xsi:nil="true"/>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c>PGS</ns2:BRProductLine_c>
+        <ns2:BRDepartmentName_Id_c>300000001154607</ns2:BRDepartmentName_Id_c>
+        <ns2:BRDepartmentName_c>科室1011</ns2:BRDepartmentName_c>
+    </ns3:result>
+    <ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>ChenXing</ns2:CreatedBy>
+        <ns2:CreationDate>2016-10-31T09:42:33.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000001151449</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000001151450</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-10-31T09:43:39.198Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>ChenXing</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>CX-Opp-Test-1031-002</ns2:Name>
+        <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001167876</ns2:OptyId>
+        <ns2:OptyNumber>3011</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001141265</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId xsi:nil="true"/>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001167877</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId>300000001150006</ns2:TargetPartyId>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName>测试科室-101401</ns2:TargetPartyName>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Berry Sales Method</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>6</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01-潜在商机</ns2:SalesStage>
+        <ns2:DescriptionText xsi:nil="true"/>
+        <ns2:AverageDaysAtStage xsi:nil="true"/>
+        <ns2:MaximumDaysInStage xsi:nil="true"/>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>1</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-11-20</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001167877</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>1</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName/>
+        <ns2:PrimaryContactPartyId/>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId/>
+        <ns2:FormattedAddress xsi:nil="true"/>
+        <ns2:City xsi:nil="true"/>
+        <ns2:Country/>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>ChenXing</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+        </ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>kitt.chen@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-10-31T09:42:33.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName>测试科室-101401</ns2:PartyUniqueName>
+        <ns2:PrConRelationshipId xsi:nil="true"/>
+        <ns2:OptyCreatedBy>ChenXing</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType>ORGANIZATION</ns2:PartyType>
+        <ns2:OptyLastUpdateDate>2016-10-31T09:42:33.001Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>ChenXing</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId>300000001150010</ns2:SalesAccountId>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName xsi:nil="true"/>
+        <ns2:PrimaryContactLastName xsi:nil="true"/>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001167878</ns2:OptyResourceId>
+            <ns2:OptyId>300000001167876</ns2:OptyId>
+            <ns2:ResourceId>300000001141265</ns2:ResourceId>
+            <ns2:PartyName>ChenXing</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>ChenXing</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T09:43:38.9Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>ChenXing</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-10-31T09:43:39.237Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C18470DD426D5E053847F770A20F4</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName xsi:nil="true"/>
+            <ns2:PersonLastName>ChenXing</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>kitt.chen@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>4009</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId>300000001150006</ns1:TargetPartyId>
+            <ns1:RevnId>300000001167877</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001141265</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167876</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T09:42:33.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>ChenXing</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>ChenXing</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C18470DD426D5E053847F770A20F4</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T09:43:39.198Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2011</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>ChenXing</ns1:PartyName>
+            <ns1:PartyId>300000001141265</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId>300000001150010</ns1:SalesAccountId>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001167877</ns1:RevnId>
+            <ns1:TargetPartyId>300000001150006</ns1:TargetPartyId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001141265</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167876</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T09:42:33.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>ChenXing</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>ChenXing</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C18470DD426D5E053847F770A20F4</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-10-31T09:43:39.198Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>1</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2011</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId>300000001150010</ns1:SalesAccountId>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c>B2B</ns2:BRBusMode_c>
+        <ns2:BRAgent_Id_c>300000001151365</ns2:BRAgent_Id_c>
+        <ns2:BRAgent_c>代理商101703</ns2:BRAgent_c>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_Id_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_c xsi:nil="true"/>
+        <ns2:BRResearchProgramName_c xsi:nil="true"/>
+        <ns2:BRResearchProgramPM_c xsi:nil="true"/>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c>PGS</ns2:BRProductLine_c>
+        <ns2:BRDepartmentName_Id_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_c xsi:nil="true"/>
+    </ns3:result>
+    <ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>francis</ns2:CreatedBy>
+        <ns2:CreationDate>2016-11-02T01:17:14.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000001151449</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000001151450</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-11-02T04:39:50.0Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>francis</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>Francis - Oppty - Test01</ns2:Name>
+        <ns2:ObjectVersionNumber>2</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001168073</ns2:OptyId>
+        <ns2:OptyNumber>3012</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001157558</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId xsi:nil="true"/>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001168074</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId xsi:nil="true"/>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName/>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Berry Sales Method</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>6</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01-潜在商机</ns2:SalesStage>
+        <ns2:DescriptionText xsi:nil="true"/>
+        <ns2:AverageDaysAtStage xsi:nil="true"/>
+        <ns2:MaximumDaysInStage xsi:nil="true"/>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>1</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-11-30</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001168074</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>2</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName/>
+        <ns2:PrimaryContactPartyId/>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId/>
+        <ns2:FormattedAddress xsi:nil="true"/>
+        <ns2:City xsi:nil="true"/>
+        <ns2:Country/>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>Francis Hu</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+        </ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>francis.hu@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-11-02T01:17:14.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName xsi:nil="true"/>
+        <ns2:PrConRelationshipId xsi:nil="true"/>
+        <ns2:OptyCreatedBy>francis</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType/>
+        <ns2:OptyLastUpdateDate>2016-11-02T04:39:50.0Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>francis</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId xsi:nil="true"/>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName xsi:nil="true"/>
+        <ns2:PrimaryContactLastName xsi:nil="true"/>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001168075</ns2:OptyResourceId>
+            <ns2:OptyId>300000001168073</ns2:OptyId>
+            <ns2:ResourceId>300000001157558</ns2:ResourceId>
+            <ns2:PartyName>Francis Hu</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>francis</ns2:CreatedBy>
+            <ns2:CreationDate>2016-11-02T01:18:35.823Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>francis</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-11-02T04:39:50.182Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C09B7A93FBBDFE053867F770A7C2E</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>2</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName>Francis</ns2:PersonFirstName>
+            <ns2:PersonLastName>Hu</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>francis.hu@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>4010</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId xsi:nil="true"/>
+            <ns1:RevnId>300000001168074</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001157558</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-30</ns1:EffectiveDate>
+            <ns1:OptyId>300000001168073</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-11-02T01:17:14.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>francis</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>francis</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C09B7A93FBBDFE053867F770A7C2E</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-11-02T04:39:50.0Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2012</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>Francis Hu</ns1:PartyName>
+            <ns1:PartyId>300000001157558</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId xsi:nil="true"/>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001168074</ns1:RevnId>
+            <ns1:TargetPartyId xsi:nil="true"/>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001157558</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-30</ns1:EffectiveDate>
+            <ns1:OptyId>300000001168073</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-11-02T01:17:14.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>francis</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>francis</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C09B7A93FBBDFE053867F770A7C2E</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-11-02T04:39:50.0Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2012</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId xsi:nil="true"/>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c>B2B</ns2:BRBusMode_c>
+        <ns2:BRAgent_Id_c>300000001136645</ns2:BRAgent_Id_c>
+        <ns2:BRAgent_c>代理商1</ns2:BRAgent_c>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_Id_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_c xsi:nil="true"/>
+        <ns2:BRResearchProgramName_c xsi:nil="true"/>
+        <ns2:BRResearchProgramPM_c xsi:nil="true"/>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c>NIPT</ns2:BRProductLine_c>
+        <ns2:BRDepartmentName_Id_c>300000001151433</ns2:BRDepartmentName_Id_c>
+        <ns2:BRDepartmentName_c>医院10171-妇产科</ns2:BRDepartmentName_c>
+    </ns3:result>
+    <ns3:result xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/"
+                xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService"
+                xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/"
+                xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Opportunity">
+        <ns2:BudgetAvailableDate xsi:nil="true"/>
+        <ns2:BudgetedFlag>false</ns2:BudgetedFlag>
+        <ns2:PrimaryOrganizationId>300000000761008</ns2:PrimaryOrganizationId>
+        <ns2:ChampionFlag>false</ns2:ChampionFlag>
+        <ns2:ConflictId>0</ns2:ConflictId>
+        <ns2:CreatedBy>wangdong</ns2:CreatedBy>
+        <ns2:CreationDate>2016-10-31T04:11:47.0Z</ns2:CreationDate>
+        <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+        <ns2:SalesMethodId>300000001151449</ns2:SalesMethodId>
+        <ns2:SalesStageId>300000001151450</ns2:SalesStageId>
+        <ns2:CustomerAccountId xsi:nil="true"/>
+        <ns2:DealHorizonCode xsi:nil="true"/>
+        <ns2:DealHorizonCodeSetId xsi:nil="true"/>
+        <ns2:DecisionLevelCode xsi:nil="true"/>
+        <ns2:DecisionLevelCodeSetId xsi:nil="true"/>
+        <ns2:Description xsi:nil="true"/>
+        <ns2:LastUpdateDate>2016-11-04T03:51:22.0Z</ns2:LastUpdateDate>
+        <ns2:LastUpdatedBy>wangdong</ns2:LastUpdatedBy>
+        <ns2:LastUpdateLogin xsi:nil="true"/>
+        <ns2:Name>TEST-OPTY-1031-01</ns2:Name>
+        <ns2:ObjectVersionNumber>5</ns2:ObjectVersionNumber>
+        <ns2:OptyId>300000001167651</ns2:OptyId>
+        <ns2:OptyNumber>3005</ns2:OptyNumber>
+        <ns2:OwnerResourcePartyId>300000001103058</ns2:OwnerResourcePartyId>
+        <ns2:PrimaryCompetitorId xsi:nil="true"/>
+        <ns2:KeyContactId xsi:nil="true"/>
+        <ns2:ReasonWonLostCode xsi:nil="true"/>
+        <ns2:ReasonWonLostCodeSetId xsi:nil="true"/>
+        <ns2:RiskLevelCode xsi:nil="true"/>
+        <ns2:RiskLevelCodeSetId xsi:nil="true"/>
+        <ns2:StatusCode>OPEN</ns2:StatusCode>
+        <ns2:StatusCodeSetId>0</ns2:StatusCodeSetId>
+        <ns2:StrategicLevelCode xsi:nil="true"/>
+        <ns2:StrategicLevelCodeSetId xsi:nil="true"/>
+        <ns2:PrimaryRevenueId>300000001167652</ns2:PrimaryRevenueId>
+        <ns2:TargetPartyId>300000001137103</ns2:TargetPartyId>
+        <ns2:UserLastUpdateDate xsi:nil="true"/>
+        <ns2:TargetPartyName>医院1011 03</ns2:TargetPartyName>
+        <ns2:DUNSNumber xsi:nil="true"/>
+        <ns2:SalesMethod>Berry Sales Method</ns2:SalesMethod>
+        <ns2:SalesMethodEOObjVerNumber>6</ns2:SalesMethodEOObjVerNumber>
+        <ns2:SalesStage>01-潜在商机</ns2:SalesStage>
+        <ns2:DescriptionText xsi:nil="true"/>
+        <ns2:AverageDaysAtStage xsi:nil="true"/>
+        <ns2:MaximumDaysInStage xsi:nil="true"/>
+        <ns2:PhaseCd>QUALIFICATION-DISCOVERY</ns2:PhaseCd>
+        <ns2:QuotaFactor>1</ns2:QuotaFactor>
+        <ns2:RcmndWinProb>0</ns2:RcmndWinProb>
+        <ns2:StageStatusCd>OPEN</ns2:StageStatusCd>
+        <ns2:StgOrder>1</ns2:StgOrder>
+        <ns2:SalesStageEOObjVerNumber>1</ns2:SalesStageEOObjVerNumber>
+        <ns2:EffectiveDate>2016-11-20</ns2:EffectiveDate>
+        <ns2:Revenue>0</ns2:Revenue>
+        <ns2:RevenueType xsi:nil="true"/>
+        <ns2:RevnId>300000001167652</ns2:RevnId>
+        <ns2:EmployeesTotal xsi:nil="true"/>
+        <ns2:CurrentFyPotentialRevenue xsi:nil="true"/>
+        <ns2:WinProb>0</ns2:WinProb>
+        <ns2:ObjectVersionNumber1>2</ns2:ObjectVersionNumber1>
+        <ns2:PrimaryContactPartyName/>
+        <ns2:PrimaryContactPartyId/>
+        <ns2:PrimaryContactFormattedPhoneNumber xsi:nil="true"/>
+        <ns2:PrimaryContactEmailAddress xsi:nil="true"/>
+        <ns2:AccountNumber xsi:nil="true"/>
+        <ns2:PartyName/>
+        <ns2:LocationId/>
+        <ns2:FormattedAddress xsi:nil="true"/>
+        <ns2:City xsi:nil="true"/>
+        <ns2:Country/>
+        <ns2:PostalCode xsi:nil="true"/>
+        <ns2:State xsi:nil="true"/>
+        <ns2:BdgtAmount xsi:nil="true"/>
+        <ns2:Comments xsi:nil="true"/>
+        <ns2:PartyName1>Dong Wang</ns2:PartyName1>
+        <ns2:PrSrcNumber xsi:nil="true"/>
+        <ns2:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+        </ns2:DownsideAmount>
+        <ns2:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:UpsideAmount>
+        <ns2:EmailAddress>dong.wang@oracle.com</ns2:EmailAddress>
+        <ns2:LastAssignedDate xsi:nil="true"/>
+        <ns2:LookupCategory>OPEN</ns2:LookupCategory>
+        <ns2:LookupValuesId xsi:nil="true"/>
+        <ns2:OptyCreationDate>2016-10-31T04:11:47.0Z</ns2:OptyCreationDate>
+        <ns2:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns2:ExpectAmount>
+        <ns2:PreferredFunctionalCurrency xsi:nil="true"/>
+        <ns2:PartyUniqueName>医院1011 03</ns2:PartyUniqueName>
+        <ns2:PrConRelationshipId xsi:nil="true"/>
+        <ns2:OptyCreatedBy>wangdong</ns2:OptyCreatedBy>
+        <ns2:CrmConversionRate>1</ns2:CrmConversionRate>
+        <ns2:CrmRevenue>0</ns2:CrmRevenue>
+        <ns2:RevnLineSetEnabledFlag>false</ns2:RevnLineSetEnabledFlag>
+        <ns2:PartyType>ORGANIZATION</ns2:PartyType>
+        <ns2:OptyLastUpdateDate>2016-11-04T03:51:22.0Z</ns2:OptyLastUpdateDate>
+        <ns2:OptyLastUpdatedBy>wangdong</ns2:OptyLastUpdatedBy>
+        <ns2:SalesChannelCd>ZPM_DIRECT_CHANNEL_TYPES</ns2:SalesChannelCd>
+        <ns2:LineOfBusinessCode xsi:nil="true"/>
+        <ns2:PhonePreferenceExistsFlag>false</ns2:PhonePreferenceExistsFlag>
+        <ns2:PartyUniqueName1 xsi:nil="true"/>
+        <ns2:PrimaryOrganizationName>北京贝瑞和康生物技术股份有限公司 LE BU</ns2:PrimaryOrganizationName>
+        <ns2:SalesAccountId>300000001137107</ns2:SalesAccountId>
+        <ns2:SalesAccountUniqueName xsi:nil="true"/>
+        <ns2:ConsumerFirstName xsi:nil="true"/>
+        <ns2:ConsumerLastName xsi:nil="true"/>
+        <ns2:PrimaryContactFirstName xsi:nil="true"/>
+        <ns2:PrimaryContactLastName xsi:nil="true"/>
+        <ns2:PrimaryPartnerOrgPartyName/>
+        <ns2:PrimaryPartnerId xsi:nil="true"/>
+        <ns2:RegistrationStatus xsi:nil="true"/>
+        <ns2:RegistrationType xsi:nil="true"/>
+        <ns2:Registered>NO</ns2:Registered>
+        <ns2:UpdateFlag>true</ns2:UpdateFlag>
+        <ns2:DeleteFlag>true</ns2:DeleteFlag>
+        <ns2:OpportunityResource>
+            <ns2:OptyResourceId>300000001167653</ns2:OptyResourceId>
+            <ns2:OptyId>300000001167651</ns2:OptyId>
+            <ns2:ResourceId>300000001103058</ns2:ResourceId>
+            <ns2:PartyName>Dong Wang</ns2:PartyName>
+            <ns2:AccessLevelCode>300</ns2:AccessLevelCode>
+            <ns2:DealProtectedDate xsi:nil="true"/>
+            <ns2:DealExpirationDate xsi:nil="true"/>
+            <ns2:DealProtected>N</ns2:DealProtected>
+            <ns2:OrgTreeCode xsi:nil="true"/>
+            <ns2:OrgTreeStructureCode xsi:nil="true"/>
+            <ns2:ResourceOrgId xsi:nil="true"/>
+            <ns2:MemberFunctionCode xsi:nil="true"/>
+            <ns2:OwnerFlag>true</ns2:OwnerFlag>
+            <ns2:LockAssignmentFlag>true</ns2:LockAssignmentFlag>
+            <ns2:AssignmentType>Ad hoc assignment</ns2:AssignmentType>
+            <ns2:ConflictId>0</ns2:ConflictId>
+            <ns2:CreatedBy>wangdong</ns2:CreatedBy>
+            <ns2:CreationDate>2016-10-31T04:12:16.946Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>wangdong</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-10-31T04:12:17.666Z</ns2:LastUpdateDate>
+            <ns2:LastUpdateLogin>3C9C169608DB26E0E053847F770A1B7E</ns2:LastUpdateLogin>
+            <ns2:ObjectVersionNumber>1</ns2:ObjectVersionNumber>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:PersonFirstName>Dong</ns2:PersonFirstName>
+            <ns2:PersonLastName>Wang</ns2:PersonLastName>
+            <ns2:OrganizationName/>
+            <ns2:OrganizationId/>
+            <ns2:AsgnTerritoryVersionId xsi:nil="true"/>
+            <ns2:TerritoryName/>
+            <ns2:EmailAddress>dong.wang@oracle.com</ns2:EmailAddress>
+            <ns2:FormattedPhoneNumber xsi:nil="true"/>
+            <ns2:PartnerOrgId xsi:nil="true"/>
+            <ns2:PartnerPartyName/>
+            <ns2:RoleName xsi:nil="true"/>
+            <ns2:MgrResourceId xsi:nil="true"/>
+            <ns2:OptyResourceNumber>4003</ns2:OptyResourceNumber>
+        </ns2:OpportunityResource>
+        <ns2:SplitRevenue>
+            <ns1:TargetPartyId>300000001137103</ns1:TargetPartyId>
+            <ns1:RevnId>300000001167652</ns1:RevnId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001103058</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167651</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T04:11:47.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>wangdong</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>wangdong</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C27961E27BD3BE053867F770A357E</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-11-04T03:43:02.641Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2005</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:CloseReasonCode xsi:nil="true"/>
+            <ns1:CloseReasonCodeSetId xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:PartyName>Dong Wang</ns1:PartyName>
+            <ns1:PartyId>300000001103058</ns1:PartyId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:OwnerDealExpirationDate xsi:nil="true"/>
+            <ns1:OwnerDealProtectedDate xsi:nil="true"/>
+            <ns1:OwnerLockAsgnFlag>false</ns1:OwnerLockAsgnFlag>
+            <ns1:Name/>
+            <ns1:EffectiveStartDate/>
+            <ns1:EffectiveEndDate/>
+            <ns1:ObjectVersionNumber1/>
+            <ns1:PrTerritoryVersionId xsi:nil="true"/>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:OwnerOrgTreeCode xsi:nil="true"/>
+            <ns1:OwnerOrgTreeStructCode xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyId xsi:nil="true"/>
+            <ns1:CreditRcptPartOrgPartyName/>
+            <ns1:AssignmentType xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedById xsi:nil="true"/>
+            <ns1:PrTerritoryUpdatedByPartyName/>
+            <ns1:SalesAccountId>300000001137107</ns1:SalesAccountId>
+        </ns2:SplitRevenue>
+        <ns2:RecurringRevenue>
+            <ns1:RevnId>300000001167652</ns1:RevnId>
+            <ns1:TargetPartyId>300000001137103</ns1:TargetPartyId>
+            <ns1:BUOrgId>300000000761008</ns1:BUOrgId>
+            <ns1:CustomerAccountId xsi:nil="true"/>
+            <ns1:CommitFlag>false</ns1:CommitFlag>
+            <ns1:Comments xsi:nil="true"/>
+            <ns1:ResourcePartyId>300000001103058</ns1:ResourcePartyId>
+            <ns1:CostAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:CostAmount>
+            <ns1:DownsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:DownsideAmount>
+            <ns1:OwnerResourceOrgId xsi:nil="true"/>
+            <ns1:ExpectAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:ExpectAmount>
+            <ns1:EffectiveDate>2016-11-20</ns1:EffectiveDate>
+            <ns1:OptyId>300000001167651</ns1:OptyId>
+            <ns1:MarginAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:MarginAmount>
+            <ns1:InventoryItemId xsi:nil="true"/>
+            <ns1:UnitPrice xsi:nil="true"/>
+            <ns1:Quantity xsi:nil="true"/>
+            <ns1:InventoryOrgId xsi:nil="true"/>
+            <ns1:RevnAmountCurcyCode>CNY</ns1:RevnAmountCurcyCode>
+            <ns1:RevnAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0</ns1:RevnAmount>
+            <ns1:UpsideAmount xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" currencyCode="CNY">0
+            </ns1:UpsideAmount>
+            <ns1:TypeCode xsi:nil="true"/>
+            <ns1:TypeCodeSetId xsi:nil="true"/>
+            <ns1:PrimaryFlag>true</ns1:PrimaryFlag>
+            <ns1:WinProb>0</ns1:WinProb>
+            <ns1:ExpectDlvryDate xsi:nil="true"/>
+            <ns1:UOMCode xsi:nil="true"/>
+            <ns1:CreationDate>2016-10-31T04:11:47.002Z</ns1:CreationDate>
+            <ns1:CreatedBy>wangdong</ns1:CreatedBy>
+            <ns1:LastUpdatedBy>wangdong</ns1:LastUpdatedBy>
+            <ns1:ConflictId>0</ns1:ConflictId>
+            <ns1:LastUpdateLogin>3C9C27961E27BD3BE053867F770A357E</ns1:LastUpdateLogin>
+            <ns1:LastUpdateDate>2016-11-04T03:43:02.641Z</ns1:LastUpdateDate>
+            <ns1:UserLastUpdateDate xsi:nil="true"/>
+            <ns1:ObjectVersionNumber>2</ns1:ObjectVersionNumber>
+            <ns1:ProdGroupId xsi:nil="true"/>
+            <ns1:RevnNumber>2005</ns1:RevnNumber>
+            <ns1:RecurFrequencyCode>NONE</ns1:RecurFrequencyCode>
+            <ns1:RecurEndDate xsi:nil="true"/>
+            <ns1:RecurParentRevnId xsi:nil="true"/>
+            <ns1:RecurNumberPeriods xsi:nil="true"/>
+            <ns1:RecurRevnAmount xsi:nil="true"/>
+            <ns1:RecurQuantity xsi:nil="true"/>
+            <ns1:RecurTypeCode>NONRECUR</ns1:RecurTypeCode>
+            <ns1:RecurStartDate xsi:nil="true"/>
+            <ns1:PrCmptPartyId xsi:nil="true"/>
+            <ns1:SalesCreditTypeCode>QUOTA</ns1:SalesCreditTypeCode>
+            <ns1:SplitParentRevnId xsi:nil="true"/>
+            <ns1:SplitPercent xsi:nil="true"/>
+            <ns1:SplitTypeCode>NONE</ns1:SplitTypeCode>
+            <ns1:StatusCode>OPEN</ns1:StatusCode>
+            <ns1:StatusCodeSetId>0</ns1:StatusCodeSetId>
+            <ns1:ConversionRate>1</ns1:ConversionRate>
+            <ns1:ConversionRateType>Corporate</ns1:ConversionRateType>
+            <ns1:ForecastOverrideCode>NEVER</ns1:ForecastOverrideCode>
+            <ns1:SalesAccountId>300000001137107</ns1:SalesAccountId>
+            <ns1:AdditionalText1 xsi:nil="true"/>
+            <ns1:AdditionalText2 xsi:nil="true"/>
+            <ns1:AdditionalNumber xsi:nil="true"/>
+            <ns1:AdditionalAmount xsi:nil="true"/>
+        </ns2:RecurringRevenue>
+        <ns2:BRBusMode_c xsi:nil="true"/>
+        <ns2:BRAgent_Id_c xsi:nil="true"/>
+        <ns2:BRAgent_c xsi:nil="true"/>
+        <ns2:BRContractSysNo_c xsi:nil="true"/>
+        <ns2:BRContractPaperNO_c xsi:nil="true"/>
+        <ns2:BRStartDate_c xsi:nil="true"/>
+        <ns2:BREndDate_c xsi:nil="true"/>
+        <ns2:BRRemark_c xsi:nil="true"/>
+        <ns2:BRAccountOwner_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_Id_c xsi:nil="true"/>
+        <ns2:BRResearchProgramCode_c xsi:nil="true"/>
+        <ns2:BRResearchProgramName_c xsi:nil="true"/>
+        <ns2:BRResearchProgramPM_c xsi:nil="true"/>
+        <ns2:BRResearChProgramStatus_c xsi:nil="true"/>
+        <ns2:BRResearChProgramSchedule_c xsi:nil="true"/>
+        <ns2:BRProductLine_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_Id_c xsi:nil="true"/>
+        <ns2:BRDepartmentName_c xsi:nil="true"/>
+        <ns2:BROptyInstrumentCollection_c>
+            <ns2:Id>300000001189918</ns2:Id>
+            <ns2:RecordName>II-20161104-0001</ns2:RecordName>
+            <ns2:CreatedBy>wangdong</ns2:CreatedBy>
+            <ns2:CreationDate>2016-11-04T03:39:25.0Z</ns2:CreationDate>
+            <ns2:LastUpdatedBy>wangdong</ns2:LastUpdatedBy>
+            <ns2:LastUpdateDate>2016-11-04T03:51:22.021Z</ns2:LastUpdateDate>
+            <ns2:ObjectVersionNumber>4</ns2:ObjectVersionNumber>
+            <ns2:OpportunityVO_Id_c>300000001167651</ns2:OpportunityVO_Id_c>
+            <ns2:LastUpdateLogin xsi:nil="true"/>
+            <ns2:CpdrfVerSor xsi:nil="true"/>
+            <ns2:UserLastUpdateDate xsi:nil="true"/>
+            <ns2:CpdrfLastUpd xsi:nil="true"/>
+            <ns2:CpdrfVerPillar xsi:nil="true"/>
+            <ns2:JobDefinitionPackage xsi:nil="true"/>
+            <ns2:RequestId xsi:nil="true"/>
+            <ns2:JobDefinitionName xsi:nil="true"/>
+            <ns2:CurrencyCode>CNY</ns2:CurrencyCode>
+            <ns2:CurcyConvRateType>Corporate</ns2:CurcyConvRateType>
+            <ns2:CorpCurrencyCode>CNY</ns2:CorpCurrencyCode>
+            <ns2:IsOwner>false</ns2:IsOwner>
+            <ns2:DepartmentName_Id_c>300000001154607</ns2:DepartmentName_Id_c>
+            <ns2:DepartmentName_c>科室1011</ns2:DepartmentName_c>
+            <ns2:TransactionType_c xsi:nil="true"/>
+            <ns2:ByAgencyFlag_c xsi:nil="true"/>
+            <ns2:AgencyName_Id_c xsi:nil="true"/>
+            <ns2:AgencyName_c xsi:nil="true"/>
+            <ns2:InstrumentName_Id_c>300000001144662</ns2:InstrumentName_Id_c>
+            <ns2:InstrumentName_c>胎儿染色体非整倍体（T13/T18/T21）检测试剂盒（可逆末端终止测序法）</ns2:InstrumentName_c>
+            <ns2:UnitPriceCalc_c>2000</ns2:UnitPriceCalc_c>
+            <ns2:UnitPrice_c>2000</ns2:UnitPrice_c>
+            <ns2:Quantity_c>2</ns2:Quantity_c>
+            <ns2:Total_c>4000</ns2:Total_c>
+            <ns2:DeliveryDate_c xsi:nil="true"/>
+            <ns2:Remark_c xsi:nil="true"/>
+        </ns2:BROptyInstrumentCollection_c>
+    </ns3:result>-->
+
+</ns0:findOpportunityResponse>

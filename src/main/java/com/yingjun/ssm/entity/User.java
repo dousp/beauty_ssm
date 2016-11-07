@@ -1,5 +1,6 @@
 package com.yingjun.ssm.entity;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 
 
@@ -8,16 +9,17 @@ import java.util.Date;
  * @author  yingjun
  *
  */
+@XmlRootElement(name="User")
 public class User {
-	
+
 	private long userId;
-	
+
 	private String userName;
-	
+
 	private long userPhone;
-	
+
 	private Date createTime;
-	
+
 	private int score;
 
 	public long getUserId() {
@@ -67,6 +69,6 @@ public class User {
 				+ "]";
 	}
 
-	
+
 
 }

@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 
+import com.yingjun.ssm.entity.User;
+import com.yingjun.ssm.util.XMLConverter;
 import org.apache.http.HttpResponse;
 import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.UsernamePasswordCredentials;
@@ -133,17 +135,29 @@ public class ClientTest {
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:/spring/spring-ws.xml");
         WebServiceTemplate webServiceTemplate = (WebServiceTemplate) ac.getBean("webServiceTemplate");
 
+        XMLConverter mapper = (XMLConverter) ac.getBean("XMLConverter");
+
         try {
+
+            // User user = new User();
+            // user.setUserName("dd");
+            // user.setUserPhone(13012345678L);
+            // String xml = mapper.convertFromObjectToXML(user);
+            // System.out.println(xml);
+            // User u2 = (User) mapper.convertFromXMLToObject(xml);
+            // System.out.println("name:"+u2.getUserName());
+            // System.out.println("phone:"+u2.getUserPhone());
+
 
             StreamSource source = new StreamSource(new StringReader(OpportunityService_findOpportunity));
             StreamResult result = new StreamResult(System.out);
             webServiceTemplate.sendSourceAndReceiveToResult(OpportunityService_WSDL,source, result);
             System.out.println(result);
 
-            StreamSource source2 = new StreamSource(new StringReader(SalesCustomObjectService_findEntity));
-            StreamResult result2 = new StreamResult(System.out);
-            webServiceTemplate.sendSourceAndReceiveToResult(SalesCustomObjectService_WSDL,source2, result2);
-            System.out.println(result2);
+            // StreamSource source2 = new StreamSource(new StringReader(SalesCustomObjectService_findEntity));
+            // StreamResult result2 = new StreamResult(System.out);
+            // webServiceTemplate.sendSourceAndReceiveToResult(SalesCustomObjectService_WSDL,source2, result2);
+            // System.out.println(result2);
 
         }catch (Exception e){
             System.out.println(e.getMessage());
