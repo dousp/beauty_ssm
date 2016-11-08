@@ -1,11 +1,11 @@
 package com.yingjun.ssm.webService;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.StringReader;
+import java.io.*;
+import java.util.List;
+import java.util.Map;
 
 import com.yingjun.ssm.entity.User;
+import com.yingjun.ssm.util.Dom4jUtil;
 import com.yingjun.ssm.util.XMLConverter;
 import org.apache.http.HttpResponse;
 import org.apache.http.auth.AuthScope;
@@ -150,9 +150,10 @@ public class ClientTest {
 
 
             StreamSource source = new StreamSource(new StringReader(OpportunityService_findOpportunity));
-            StreamResult result = new StreamResult(System.out);
+            StreamResult result = new StreamResult(new StringWriter());
             webServiceTemplate.sendSourceAndReceiveToResult(OpportunityService_WSDL,source, result);
-            System.out.println(result);
+            List<Map<String,Object>> list = Dom4jUtil.getResultByString(result.getWriter().toString());
+            System.out.println(list.size());
 
             // StreamSource source2 = new StreamSource(new StringReader(SalesCustomObjectService_findEntity));
             // StreamResult result2 = new StreamResult(System.out);
