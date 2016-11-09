@@ -26,9 +26,14 @@ public class Dom4jUtil {
     {
         System.out.println("=====================================");
 
-        String str = "";
-        List<Map<String,Object>> list1 = getResultByString(str);
-        List<Map<String,Object>> list2 = getResultByFile(new File("ws-response.xml"));
+        // String str = "";
+        // List<Map<String,Object>> list1 = getResultByString(str);
+        // List<Map<String,Object>> list2 = getResultByFile(new File("ws-response.xml"));
+
+        double d = 42681.40277777778d;
+
+        List list = parseXml(new File("student2.xml"));
+        System.out.println(list.size());
 
         System.out.println("=====================================");
 
@@ -41,18 +46,11 @@ public class Dom4jUtil {
      * @throws DocumentException
      */
     public static List<Map<String,Object>> getResultByFile(File file) throws DocumentException {
-        // List<Map<String,Object>> list = new ArrayList<>();
+
         SAXReader saxReader = new SAXReader();
         Document doc = saxReader.read(file);
         Element root = doc.getRootElement();
         return getResultList(root);
-        // List<Element> resultList = root.elements("result");
-        // for (Element element : resultList) {
-        //     Map<String,Object> map = parseTagResult(element);
-        //     list.add(map);
-        // }
-        //
-        // return list;
     }
 
     /**
@@ -63,17 +61,9 @@ public class Dom4jUtil {
      */
     public static List<Map<String,Object>> getResultByString(String finder) throws DocumentException {
 
-        // List<Map<String,Object>> list = new ArrayList<>();
         Document doc = DocumentHelper.parseText(finder);
         Element root = doc.getRootElement();
         return getResultList(root);
-        // List<Element> resultList = root.elements("result");
-        // for (Element element : resultList) {
-        //     Map<String,Object> map = parseTagResult(element);
-        //     list.add(map);
-        // }
-        //
-        // return list;
     }
 
     /**
@@ -84,7 +74,6 @@ public class Dom4jUtil {
     public static List<Map<String,Object>> getResultList(Element root){
 
         List<Map<String,Object>> list = new ArrayList<>();
-
         List<Element> resultList = root.elements("result");
         for (Element element : resultList) {
             Map<String,Object> map = parseResultTag(element);
@@ -125,6 +114,78 @@ public class Dom4jUtil {
 
         }
         return map;
+    }
+
+
+
+    public static List<Map<String,Object>> parseXml(File file) throws DocumentException {
+
+        SAXReader saxReader = new SAXReader();
+        Document doc = saxReader.read(file);
+        Element root = doc.getRootElement();
+        Element header = root.element("Header");
+        Element body = root.element("Body");
+
+        List<Element> lists =  body.elements();
+        List<Element> results = lists.get(0).elements();
+
+        List<Map<String,Object>> list = new ArrayList<>();
+        for (Element result : results) {
+            Map<String,Object> map = parseResultTag(result);
+            list.add(map);
+        }
+
+        return list;
+    }
+
+    public List<Element> getResult(Element element){
+
+        // for(Iterator iter = element.elementIterator(); iter.hasNext();) {
+        //     Element e = (Element)iter.next();
+        //     if(e.getName().equals("result")){
+        //         return element.elements();
+        //     }
+        // }
+        //
+        // // 当前节点下面子节点迭代器
+        // Iterator<Element> it = element.elementIterator();
+        // // 遍历
+        // while (it.hasNext()) {
+        //     // 获取某个子节点对象
+        //     Element e = it.next();
+        //     // 对子节点进行遍历
+        //     List<Element> list = getResult(e);
+        //
+        //     if(list != null){
+        //         return list;
+        //     }
+        // }
+        return null;
+    }
+
+    public static Element getRootForResult(Element node, String target) {
+
+
+        System.out.println("-------开始新节点-------------");
+        // 当前节点的名称、文本内容和属性
+        System.out.println("当前节点名称：" + node.getName());// 当前节点名称
+
+        Element finder = null;
+
+        // 递归遍历当前节点所有的子节点
+        List<Element> listElement = node.elements();// 所有一级子节点的list
+
+        for (final Element e : listElement) {// 遍历所有一级子节点
+
+            if(e.getName().equals(target)){
+                finder =  node;
+                break;
+            }else{
+                return getRootForResult(e,target);
+            }
+        }
+
+        return finder;
     }
 
 
